@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">EAC1-2017S1</string>
+    <string name="name_lastname">Nom i Cognoms</string>
+    <string name="address">Adreça</string>
+    <string name="street">Carrer:</string>
+    <string name="postal_code">Codi Postal:</string>
+    <string name="population">Població:</string>
+    <string name="personal_data">Dades Personals</string>
+    <string name="phone">Telèfon:</string>
+    <string name="webpage">Pàgina Web:</string>
+    <string name="send">ENVIA</string>
+    <string name="accept">ACCEPTA</string>
+    <string name="cancel">CANCELA</string>
+    <string name="undefined">Valor no definit</string>
+</resources>

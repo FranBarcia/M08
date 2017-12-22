@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EAC3-2017S1</string>
+    <string name="action_settings">Settings</string>
+    <string name="galery_text">EAC3 - Fran Barcia | Galeria</string>
+    <string name="cancel">L\'usuari ha cancelat la acció</string>
+    <string name="permissionMissing">Et falta algún permís</string>
+    <string name="updateDB">Actualitzant Base de dades de la versió</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="tipusFitxer">tipusFitxer</string>
+</resources>

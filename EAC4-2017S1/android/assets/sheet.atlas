@@ -1,0 +1,69 @@
+
+sheet.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+asteroid_alone
+  rotate: false
+  xy: 1284, 1541
+  size: 91, 96
+  orig: 91, 96
+  offset: 0, 0
+  index: -1
+explosion
+  rotate: false
+  xy: 2, 409
+  size: 1280, 1280
+  orig: 1280, 1280
+  offset: 0, 0
+  index: -1
+fire
+  rotate: false
+  xy: 604, 257
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+laser
+  rotate: false
+  xy: 1284, 1639
+  size: 379, 50
+  orig: 379, 50
+  offset: 0, 0
+  index: -1
+pause
+  rotate: false
+  xy: 2, 19
+  size: 150, 184
+  orig: 150, 184
+  offset: 0, 0
+  index: -1
+space
+  rotate: false
+  xy: 2, 205
+  size: 600, 202
+  orig: 600, 202
+  offset: 0, 0
+  index: -1
+spacecraft_down
+  rotate: false
+  xy: 154, 188
+  size: 36, 15
+  orig: 36, 15
+  offset: 0, 0
+  index: -1
+spacecraft_straight
+  rotate: false
+  xy: 1665, 1674
+  size: 36, 15
+  orig: 36, 15
+  offset: 0, 0
+  index: -1
+spacecraft_up
+  rotate: false
+  xy: 2, 2
+  size: 36, 15
+  orig: 36, 15
+  offset: 0, 0
+  index: -1

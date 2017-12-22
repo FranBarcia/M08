@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait"
+    tools:context="com.ioc.fbarcia.eac3_2017s1.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <TextView
+            android:id="@+id/txtGaleria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical"
+            android:text="@string/galery_text"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:id="@+id/includeRV"
+        layout="@layout/content_main"
+        android:layout_height="440dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnVideo"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="top|right"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:paddingBottom="5dp"
+        app:backgroundTint="@android:color/holo_green_dark"
+        app:fabSize="mini"
+        app:layout_anchor="@+id/includeRV"
+        app:layout_anchorGravity="bottom|center_horizontal"
+        app:srcCompat="@android:drawable/presence_video_online" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnPhoto"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_gravity="top|left"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:paddingBottom="5dp"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:fabSize="mini"
+        app:layout_anchor="@+id/includeRV"
+        app:layout_anchorGravity="bottom|center_horizontal"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
+
+</android.support.design.widget.CoordinatorLayout>
